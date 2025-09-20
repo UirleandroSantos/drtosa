@@ -105,6 +105,7 @@ p{
         justify-content: space-around;
         align-items: center;
         height: 100vh;
+        padding: 0;
     }
 
     .wrap{

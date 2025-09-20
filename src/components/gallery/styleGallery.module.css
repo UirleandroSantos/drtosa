@@ -1,0 +1,48 @@
+.container{
+    padding: 0 0.5rem;
+}
+
+.card {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto; /* rolagem horizontal no mobile */
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding: 1rem 0;
+}
+
+.card img {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  scroll-snap-align: center;
+}
+
+.containerTexts{
+    text-align: center;
+}
+
+.containerTexts h2{
+    color: #003459;
+}
+
+.containerTexts p{
+    color: rgb(77, 77, 77);
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerTexts{
+        text-align: start;
+        padding: 0 5rem;
+    }
+}

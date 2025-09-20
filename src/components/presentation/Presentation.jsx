@@ -25,7 +25,7 @@ export function Presentation(){
             <section className={styles.containerImg}>
                 <div className={styles.quadradoAzul}></div>
                 <div className={styles.quadradoAmarelo}></div>
-                <img src={imgBanner} className={styles.imgBanner} alt="" />
+                <img src={imgBanner} className={styles.imgBanner} alt="Banner" loading="eager" />
             </section>
         </div>
     )

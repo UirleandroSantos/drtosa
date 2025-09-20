@@ -5,6 +5,7 @@ import styles from './styleApp.module.css';
 import { Opening } from "./components/opening/Opening.jsx";
 import { Header } from "./components/header/Header.jsx";
 import { Presentation } from "./components/presentation/Presentation.jsx";
+import { Gallery } from "./components/gallery/Gallery.jsx";
 
 export function App() {
   const [showOpening, setShowOpening] = useState(true);
@@ -22,6 +23,7 @@ export function App() {
         <section className={styles.container}>
           <Header />
           <Presentation />
+          <Gallery />
         </section>
       }
       
