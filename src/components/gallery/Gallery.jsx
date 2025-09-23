@@ -16,7 +16,6 @@ export function Gallery(){
                 <h2>Galeria</h2>
                 <p>
                     Confira alguns dos trabalhos realizados pelo nosso time de especialistas em banho e tosa a domicílio. 
-                    Cuidamos do seu pet com carinho, segurança e toda a comodidade que ele merece!
                 </p>
             </div>
             <div className={styles.containerCarrossel}>

@@ -1,5 +1,9 @@
 .container{
-    background-color: #FCEED5;
+    background-image: url("../src/assets/backgroundPresentetionSvg.svg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #fceed5ab;
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
