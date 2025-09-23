@@ -6,6 +6,7 @@ import { Opening } from "./components/opening/Opening.jsx";
 import { Header } from "./components/header/Header.jsx";
 import { Presentation } from "./components/presentation/Presentation.jsx";
 import { Gallery } from "./components/gallery/Gallery.jsx";
+import { About } from "./components/about/About.jsx";
 
 export function App() {
   const [showOpening, setShowOpening] = useState(true);
@@ -24,6 +25,7 @@ export function App() {
           <Header />
           <Presentation />
           <Gallery />
+          <About />
         </section>
       }
       
